@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Lista de números aleatórios</title>
+</head>
+<body>
+	<ul>
+		<li th:each="cont : ${numero}" th:text="${cont}">nº</li>
+	</ul>
+</body>
+</html>
